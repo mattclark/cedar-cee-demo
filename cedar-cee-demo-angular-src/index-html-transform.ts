@@ -6,7 +6,7 @@ export default (targetOptions: TargetOptions, indexHtml: string) => {
   // but that does not work
   // This is a workaround for now
   if (targetOptions.target === 'serve') {
-    indexHtml = indexHtml.replace('https://component.metadatacenter.org/', 'http://localhost:4240/');
+    indexHtml = indexHtml.replace('https://component.metadatacenter.org/', '/');
   }
 
   return indexHtml;

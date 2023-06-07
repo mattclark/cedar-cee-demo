@@ -25,6 +25,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/cedar-embeddable-editor-sample-templates",
+              "src/cedar-embeddable-editor-2.6.31.js",
               {
                 "glob": "{*loader.js,*adapter.js,bundles/*.js}",
                 "input": "node_modules/@webcomponents/webcomponentsjs/",
@@ -108,7 +110,9 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/cedar-embeddable-editor-sample-templates",
+              "src/cedar-embeddable-editor-2.6.31.js"
             ],
             "styles": [
               "src/styles.scss"
